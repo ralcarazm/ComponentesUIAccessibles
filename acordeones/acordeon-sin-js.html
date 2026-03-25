@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Acordeón accesible sin JavaScript</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+  <h1>Acordeón accesible sin JavaScript</h1>
+  <details>
+    <summary role="button" aria-expanded="false" aria-controls="seccion1" id="acordeon1">Sección 1</summary>
+    <div id="seccion1" role="region" aria-labelledby="acordeon1">
+      <p>Contenido de la sección 1.</p>
+    </div>
+  </details>
+  <details>
+    <summary role="button" aria-expanded="false" aria-controls="seccion2" id="acordeon2">Sección 2</summary>
+      <div id="seccion2" role="region" aria-labelledby="acordeon2">
+        <p>Contenido de la sección 2.</p>
+      </div>
+  </details>
+  <details>
+    <summary role="button" aria-expanded="false" aria-controls="seccion3" id="acordeon3">Sección 3</summary>
+    <div id="seccion3" role="region" aria-labelledby="acordeon3">
+      <p>Contenido de la sección 3.</p>
+    </div>
+  </details>
+</body>
+</html>
+
