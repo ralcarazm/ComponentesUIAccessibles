@@ -4,6 +4,8 @@
 
 En diseño web, un acordeón (o _accordion_, en inglés) es un componente de interfaz de usuario (UI) que permite mostrar y ocultar secciones de contenido. Su funcionamiento se asemeja al instrumento musical del mismo nombre: al hacer clic en un encabezado o título, se «expande» una sección de contenido relacionada, mientras que, en paralelo, otras secciones pueden contraerse.
 
+![Acordeón](acordeon.webp)
+
 ## Características principales de un acordeón
 
 - Estructura jerárquica: cada elemento del acordeón presenta un título o encabezado y un bloque de contenido asociado.
