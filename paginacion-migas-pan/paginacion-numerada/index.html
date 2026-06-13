@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ejemplo de paginación numerada accesible</title>
+    <style>
+      body{
+          font-family: Arial, sans-serif;
+        }
+        .pagination {
+            margin: 2rem 0;
+            text-align: center;
+            font-family: system-ui, sans-serif;
+          }
+        
+          .pagination ul {
+            list-style: none;
+            display: inline-flex;
+            flex-wrap: wrap;
+            gap: 0.4rem;
+            padding: 0;
+            margin: 0;
+            background-color: #505050;
+            border-radius: 9999px;
+            padding: 0.4rem 0.6rem;
+          }
+        
+          .page-link {
+            display: inline-block;
+            padding: 0.4rem 0.9rem;
+            border-radius: 9999px;
+            text-decoration: none;
+            background-color: #ffffff;
+            color: #004080;
+            font-weight: 500;
+            transition: all 0.2s ease-in-out;
+          }
+        
+          .page-link:hover,
+          .page-link:focus {
+            background-color: #004080;
+            color: #ffffff;
+            outline: none;
+          }
+        
+          .page-link[aria-current="page"] {
+            background-color: #004080;
+            color: #ffffff;
+            font-weight: 600;
+            cursor: default;
+            pointer-events: none;
+          }
+        
+          .page-link[aria-disabled="true"] {
+            background-color: #e0e3e7;
+            color: #8a8f94;
+            pointer-events: none;
+            cursor: default;
+          }
+        
+          .page-link.prev,
+          .page-link.next {
+            font-size: 1rem;
+          }
+        
+          .page-link:focus-visible {
+            outline: 3px solid #ffa600;
+            outline-offset: 2px;
+          }
+    </style>
+  </head>
+<body>
+  <h1>Ejemplo de paginación numerada accesible</h1>
+  <nav class="pagination" aria-label="Navegación de la paginación">
+    <ul>
+      <li>
+        <a href="#" class="page-link prev" aria-label="Página anterior" aria-disabled="true" tabindex="-1">‹</a>
+      </li>
+      <li>
+        <a href="?pagina=1" class="page-link" aria-current="page">1</a>
+      </li>
+      <li>
+        <a href="?pagina=2" class="page-link">2</a>
+      </li>
+      <li>
+        <a href="?pagina=3" class="page-link">3</a>
+      </li>
+      <li>
+        <a href="?pagina=4" class="page-link">4</a>
+      </li>
+      <li>
+        <a href="?pagina=2" class="page-link next" aria-label="Página siguiente">›</a>
+      </li>
+    </ul>
+  </nav>
+</body>
+</html> 
