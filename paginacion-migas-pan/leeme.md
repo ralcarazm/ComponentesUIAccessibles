@@ -100,22 +100,6 @@ Ten en cuenta que:
 - 2.4.7: Foco visible (nivel AA).
 - 4.1.2: Nombre, función, valor (nivel A).
 
-## Código HTML
-
-En los ejemplos se utilizan los siguientes elementos y atributos:
-
-- `<nav>`: identifica el bloque como una región de navegación.
-- `<ul>`: agrupa los enlaces de una paginación.
-- `<ol>`: representa el orden jerárquico de unas migas de pan.
-- `<li>`: contiene cada uno de los elementos de navegación.
-- `<a href="">`: implementa los enlaces que conducen a otras páginas.
-- `aria-label`: proporciona un nombre accesible al bloque de navegación o a un enlace cuando su texto visible no resulta suficientemente descriptivo.
-- `aria-labelledby`: permite nombrar el bloque de navegación mediante otro elemento de la página.
-- `aria-current="page"`: identifica el enlace o elemento que representa la página actual.
-- `aria-hidden="true"`: puede utilizarse para ocultar a los lectores de pantalla flechas o separadores puramente decorativos.
-
-La paginación y las migas de pan pueden implementarse con HTML y CSS sin necesidad de JavaScript. Solo se requiere JavaScript cuando la carga de resultados se realiza dinámicamente sin una navegación convencional a otra URL. En ese caso, también debe gestionarse correctamente el foco y comunicarse la actualización del contenido a las tecnologías de asistencia.
-
 ## Contenido de esta carpeta
 
 - `paginacion-numerada`: ejemplo de paginación con enlaces numéricos y controles para avanzar y retroceder.
