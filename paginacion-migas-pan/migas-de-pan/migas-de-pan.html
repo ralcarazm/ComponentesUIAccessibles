@@ -1,0 +1,49 @@
+
+
+ <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ejemplo de migas de pan accesibles</title>
+    <style>
+      body{
+        font-family: Arial, sans-serif;
+      }
+      .breadcrumb {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        margin: 0;
+       }
+      .breadcrumb-item + .breadcrumb-item::before {
+        content: "/";
+        padding: 0 0.5em;
+      }
+      .breadcrumb a:hover {
+        text-decoration: none;
+      }
+      .breadcrumb [aria-current="page"] {
+        color: #333;
+        font-weight: bold;
+      }
+          </style>
+  </head>
+<body>
+<nav aria-label="Ruta de navegación">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item">
+      <a href="/">Inicio</a>
+    </li>
+    <li class="breadcrumb-item">
+      <a href="/categoria/">Categoría</a>
+    </li>
+    <li class="breadcrumb-item" aria-current="page">
+      Artículo
+    </li>
+  </ol>
+</nav>
+<h1>Ejemplo de migas de pan accesibles</h1>
+</body>
+</html> 
+
