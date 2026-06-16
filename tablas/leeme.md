@@ -49,6 +49,9 @@ Procura alinear a la derecha los valores numéricos para facilitar su lectura y 
 ## Contenido de esta carpeta
 - `tabla-encabezado-horizontal`
 - `tabla-encabezado-vertical`
+- `tabla-con-scope-aria`
+- `tabla-con-dos-encabezados`
+- `tabla-con-encabezados-irregulares`
 
 ## Artículo relacionado
 
