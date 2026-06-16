@@ -55,4 +55,4 @@ Procura alinear a la derecha los valores numéricos para facilitar su lectura y 
 
 ## Artículo relacionado
 
-[a11y tips #3: tablas accesibles]([https://www.w3.org/WAI/tutorials/tables](https://www.rubenalcaraz.es/pinakes/accesibilidad/a11y-tips-3-tablas-accessibles/)).
+[a11y tips #3: tablas accesibles](https://www.rubenalcaraz.es/pinakes/accesibilidad/a11y-tips-3-tablas-accessibles/)
