@@ -47,8 +47,8 @@ Procura alinear a la derecha los valores numéricos para facilitar su lectura y 
 - 2.1.1: Teclado (nivel A).
 
 ## Contenido de esta carpeta
-- tabla-encabezado-horizontal
-- tabla-encabezado-vertical
+- `tabla-encabezado-horizontal`
+- `tabla-encabezado-vertical`
 
 ## Artículo relacionado
 
