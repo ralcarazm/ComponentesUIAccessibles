@@ -1,0 +1,47 @@
+
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nota al pie de página accesible</title>
+    <style>
+      body{
+        font-family: Helvetica, Arial, sans-serif;
+        font-size:1.25em;
+      }
+      sup a:focus, sup a:hover, li a:focus, li a:hover {
+        outline: 2px dashed #000;
+        background-color: #d5f5e3;
+        color: black;
+        border-radius: 0.2em;
+        padding: 0 0.2em;
+      }
+      li:target {
+        background:  #d5f5e3;
+        display: list-item;
+        width: fit-content;
+        max-width: 100%;
+        padding-inline: 0.2em;
+      }
+    </style>
+  </head>
+  <body>
+    <article>
+      <h1>Nota al pie de página accesible</h1>
+      <p>Este es un texto con una nota al pie.<sup><a href="#nota1" id="ref1" aria-describedby="notas" role="doc-noteref">[1]</a></sup></p>
+      <p>Este es otro texto con una nota al pie.<sup><a href="#nota2" id="ref2" aria-describedby="notas" role="doc-noteref">[2]</a></sup></p>
+
+      <aside role="doc-endnotes" aria-labelledby="notas">
+        <h2 id="notas">Notas</h2>
+        <ol>
+          <li id="nota1">Aquí el texto de la nota 1. <a href="#ref1" aria-label="Vuelve a la referencia 1" role="doc-backlink">↩ Vuelve a la referencia 1</a></li>
+          <li id="nota2">Aquí el texto de la nota 1. <a href="#ref2" aria-label="Vuelve a la referencia 2" role="doc-backlink">↩ Vuelve a la referencia 2</a></li>
+          <!-- aquí el resto de notas -->
+        </ol>
+      </aside>
+    </article>
+  </body>
+</html>
+
